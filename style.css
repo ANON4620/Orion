@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/Roboto/Roboto-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    width: 400px;
+}
+
+.logo {
+    width: 326px;
+    height: 92px;
+}
+
+.links {
+    flex: 1 1 auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links a {
+    width: 43px;
+    height: 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #06286E;
+    text-decoration: none;
+    border: none;
+    padding: 12px 8px;
+    font-size: 16px;
+}
+
+.buttons {
+    flex: 1 1 auto;
+}
+
+.login {
+    background: white;
+    border: 1px solid #06286E;
+    width: 92px;
+    height: 37px;
+    margin: 16px;
+    border-radius: 6px;
+}
+
+.signup {
+    background: #06286E;
+    border: none;
+    color: white;
+    width: 107px;
+    height: 37px;
+    border-radius: 6px;
+}
+
+.one {
+    height: 748px;
+    display: flex;
+    flex-direction: row;
+}
+
+.one .content {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    width: 726.31px;
+    height: 379px;
+    margin-top: 86.83px;
+    margin-left: 94.69px;
+
+}
+
+.one .content h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.one .content p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.one .content .buttons {
+    display: flex;
+    flex-direction: row;
+    width: 453px;
+    height: 52px;
+    margin-top: 40px;
+}
+
+.startnow {
+    background: linear-gradient(112.03deg, #06286E 63.19%, #2854AE 73.25%, #06286E 83.8%);
+    color: white;
+    width: 202.5px;
+    height: 52px;
+    border-radius: 10px;
+    margin-right: 55px;
+}
+
+.bookademo {
+    width: 205.5px;
+    height: 52px;
+    border: 0.75px solid #598FFF;
+    color: #598FFF;
+    border-radius: 10px;
+    background: white;
+}
+
+.dashboard {
+    width: 608.32px;
+    height: 680px;
+    position: relative;
+    top: -50px;
+}
+
+.two img {
+    width: 100%;
+}
